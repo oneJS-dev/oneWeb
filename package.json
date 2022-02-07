@@ -1,6 +1,6 @@
 {
   "name": "@onejs-dev/oneweb",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "",
   "main": "oneWeb.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/oneJS-dev/oneWeb#readme",
   "dependencies": {
-    "@onejs-dev/onecore": "~0.0.1",
-    "@onejs-dev/onespecifics": "npm:@onejs-dev/onewebspecifics@^0.0.1"
+    "@onejs-dev/onecore": "^0.0.1",
+    "@onejs-dev/onespecifics": "npm:@onejs-dev/onewebspecifics@^0.0.2"
   }
 }
