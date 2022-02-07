@@ -1,0 +1,22 @@
+{
+  "name": "oneweb",
+  "version": "0.0.2",
+  "description": "",
+  "main": "oneWeb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneJS-dev/oneWeb.git"
+  },
+  "author": "onejs-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oneJS-dev/oneWeb/issues"
+  },
+  "homepage": "https://github.com/oneJS-dev/oneWeb#readme",
+  "dependencies": {
+    "onewebspecifics": "~0.0.1"
+  }
+}
