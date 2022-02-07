@@ -5,7 +5,7 @@ getLanguage, setLanguage, updateLanguage, readText,
         read, add, update, remove, 
         goToState, nextState, previousState, readStateHistory,
         BaseComponent, Component,
-        themeVariable, updateThemeVariable} from './oneCore.js';
+        themeVariable, updateThemeVariable} from '@onejs-dev/oneCore';
 
 export {getLanguage, setLanguage, updateLanguage, readText,
         read, add, update, remove, 
