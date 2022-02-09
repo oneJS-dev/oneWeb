@@ -1,6 +1,6 @@
 {
   "name": "@onejs-dev/oneweb",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "oneWeb.js",
   "scripts": {
