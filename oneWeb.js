@@ -1,7 +1,6 @@
 // import {BaseComponent} from './oneCore.js';
 
-import {setupTheme, setupState, 
-getLanguage, setLanguage, updateLanguage, readText,
+import {getLanguage, setLanguage, updateLanguage, readText,
         read, add, update, remove, 
         goToState, nextState, previousState, readStateHistory,
         BaseComponent, Component,
