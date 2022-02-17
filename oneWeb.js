@@ -390,7 +390,7 @@ const animate = (animation, property) => (newValue, component) => {
 }
 
 /*WEB ROUTING*/
-//The reason why we call onVisibleChange and onActiveChange rather than directly setting the visible and active attributes of the component is to follow the
+//The reason why we call onVisibleChange and onActiveChange rather than directly setting the visible and active attributes of the component is to follow the 
 //functional pattern where it is the state that should be updated on this events changing the visbile and active attributes it is binded to
 //Example:  View({visible: read('isVisible'), onVisibleChange: update('isVisible'), url: {visible: '/home1', link: 'home2'}})('hello world')
 
