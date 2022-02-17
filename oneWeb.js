@@ -27,6 +27,7 @@ Naming convention: Exact same name as the html tag with CamelCase with first let
     <iframe> is IFrame
     <tbody> is TBody 
     <map> is OneMap to avoid collision with Map
+    <input> is HtmlInput to avoid collision with Input
 */
 
 /** 
@@ -84,7 +85,7 @@ export const Html = BaseComponent('Html', true, 'html');
 export const I = BaseComponent('I', true, 'i');
 export const IFrame = BaseComponent('IFrame', true, 'iframe');
 export const Img = BaseComponent('Img', false, 'img');
-export const Input = BaseComponent('Input', false, 'input'); //"Input" is defined later in a custom way
+export const HtmlInput = BaseComponent('HtmlInput', false, 'input'); //"Input" is defined later in a custom way
 export const Ins = BaseComponent('Ins', true, 'ins');
 export const Kbd = BaseComponent('Kbd', true, 'kbd');
 export const Label = BaseComponent('Label', true, 'label');
