@@ -198,7 +198,7 @@ export const Input = ({options, type, flavor=readFlavor('default'), ...attribute
         delete attributes['onPress'];
     }
     //Standard input
-    if(!type) return input(attributes);
+    if(!type) return HtmlInput(attributes);
     //Textarea for longer text input
     else if(type === 'textarea') {
         return Textarea(attributes)();
@@ -231,7 +231,7 @@ export const Input = ({options, type, flavor=readFlavor('default'), ...attribute
             background: 'linear-gradient(to right, ' + (flavor.primaryColor ??  'blue') + ' 0%, ' + (flavor.primaryColor ??  'blue')  + ' ' + 
             value + '%, ' +  (flavor.neutralColor ??  'grey') + ' ' + value + '%, ' + (flavor.neutralColor ??  'grey') + ' 100%)',
         }
-        return input({...attributes, type: type, inlineStyle: style}); //This overrides any style defined by the user
+        return HtmlInput({...attributes, type: type, inlineStyle: style}); //This overrides any style defined by the user
     }
     //Input with datalist options
     else if(type === 'list') {
@@ -241,7 +241,7 @@ export const Input = ({options, type, flavor=readFlavor('default'), ...attribute
     }
     //The rest of the inputs
     else {
-        return input({type: type, ...attributes});
+        return HtmlInput({type: type, ...attributes});
     }
 }
 

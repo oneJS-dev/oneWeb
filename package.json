@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/oneJS-dev/oneWeb#readme",
   "dependencies": {
-    "@onejs-dev/onecore": "^0.0.1",
-    "@onejs-dev/onespecifics": "npm:@onejs-dev/onewebspecifics@^0.0.2",
+    "@onejs-dev/onecore": "^0.0.11",
+    "@onejs-dev/onespecifics": "npm:@onejs-dev/onespecifics@^0.0.4",
     "@emotion/css": "^11.7.1",
     "react": "^18.0.0-rc.0",
     "react-dom": "^18.0.0-rc.0"
